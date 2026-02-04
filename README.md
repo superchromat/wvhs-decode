@@ -13,11 +13,7 @@ This project captures signals from inside a W-VHS VCR using a 4-channel oscillos
 - **Ch3**: Main demodulated 
 - **Ch4**: Sub demodulated 
 
-All taps are taken off thei bottom side of the WVHS board in the bottom of a JVC HR-W5U. While the demodulated outputs are accessible on the top side at TP502 and TP503 (just before the signal goes into IC502/503 for analog to digital conversion), we've chosen to tap onto vias on the bottom side for cable routing reasons. See the images for where the specific taps are taken.
-
-![Overview](HR-W5\ Tap\ Points/overview.png)
-![RF Taps](HR-W5\ Tap\ Points/rf.png)
-![Demodulated Taps](HR-W5\ Tap\ Points/demodulated.png)
+All taps are taken off the bottom side of the WVHS board in the bottom of a JVC HR-W5U. While the demodulated outputs are accessible on the top side at TP502 and TP503 (just before the signal goes into IC502/503 for analog to digital conversion), we've chosen to tap onto vias on the bottom side for cable routing reasons. See the HR-W5 Tap Points directory for photos of the specific taps.
 
 W-VHS is an analog high-definition video format that uses two parallel signal channels:
 
